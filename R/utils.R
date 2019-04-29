@@ -347,6 +347,7 @@ getB <- function(y, NOM=NULL, X=NULL, offset=NULL, tJac=NULL) {
   namedList(B1, B2, o1, o2)
 }
 
+##' Deparse := deparse() but with different default 'width.cutoff' :
 Deparse <-
   function(expr, width.cutoff = 500L, backtick = mode(expr) %in%
            c("call", "expression", "(", "function"),
